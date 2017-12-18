@@ -1,0 +1,24 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01_fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aaayang/async.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaayang/async/issues"
+  },
+  "homepage": "https://github.com/Aaayang/async#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-fetch": "^1.7.3"
+  }
+}
