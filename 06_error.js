@@ -15,10 +15,12 @@ async function getData(id) {
 
 const showColumnInfo = async(id) => {
     try {
+        // 可能发生错误的代码
         const column = await getData(id);
         console.log(`NAME: ${column.name}`);
         console.log(`INTRO: ${column.intro}`);
     } catch(err) {
+        // 在错误发生时怎么处理
         console.log(err);
     }
 };
