@@ -44,7 +44,7 @@ const fetch = require('node-fetch');
 async function getData(id) {
     const url = `https://zhuanlan.zhihu.com/api/columns/${id}`;
     const response = await fetch(url);
-    // 返回一个promise
+    // 返回一个promise，这里的await没有必要，因为本身response.json()返回的就是一个promise
     return await response.json();
 }
 
